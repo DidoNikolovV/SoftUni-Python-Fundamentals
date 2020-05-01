@@ -1,0 +1,8 @@
+# Write a program that receives three whole numbers and print the biggest one
+
+numbers = []
+for num in range(3):
+    number = int(input())
+    numbers.append(number)
+
+print(max(numbers))
